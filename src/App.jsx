@@ -4,6 +4,7 @@ import Test from "./Test";
 
 
 
+
 const App = () => {
   return <div>
     {/* <section><Navbar/></section>
@@ -15,6 +16,7 @@ const App = () => {
     <section>Portfolio2</section>
     <section>Portfolio3</section>
     <section>Contact</section> */}
+    <Test/>
     <Test/>
     </div>;
 };
