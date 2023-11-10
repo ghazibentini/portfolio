@@ -1,6 +1,6 @@
 import "./app.scss"
 import Navbar from "./components/navbar/Navbar";
-import Test from "./test";
+import Test from "./Test";
 
 
 
