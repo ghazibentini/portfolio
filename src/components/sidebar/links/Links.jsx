@@ -1,8 +1,8 @@
-import React from 'react'
 
-function Links() {
+
+const Links = () => {
   return (
-    <div>Links</div>
+    <div className="links">Links</div>
   )
 }
 
