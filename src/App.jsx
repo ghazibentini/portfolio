@@ -1,24 +1,24 @@
-import "./app.scss"
+import "./app.scss";
 import Navbar from "./components/navbar/Navbar";
 import Test from "./Test";
 
-
-
-
 const App = () => {
-  return <div>
-    <section><Navbar/></section>
-    <section>Hero</section>
-    <section>Parallax</section>
-    <section>Services</section>
-    <section>Parallax</section>
-    <section>Portfolio1</section>
-    <section>Portfolio2</section>
-    <section>Portfolio3</section>
-    <section>Contact</section>
-    {/* <Test/>
+  return (
+    <div>
+      <section id="Homepage">
+        <Navbar />
+      </section>
+      <section id="Services">Parallax</section>
+      <section>Services</section>
+      <section id="Portfolio">Parallax</section>
+      <section>Portfolio1</section>
+      <section>Portfolio2</section>
+      <section>Portfolio3</section>
+      <section id="Contact">Contact</section>
+      {/* <Test/>
     <Test/> */}
-    </div>;
+    </div>
+  );
 };
 
 export default App;
